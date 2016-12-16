@@ -1,6 +1,7 @@
 $(document).ready(function() 
     { 
-        $('#keywords').tablesorter();    
-        $('#keywords').tablesorter( {sortList: [[0,0], [1,0]]} ); 
+        $('#mytable').tablesorter();    
+//        $('#mytable').tablesorter( {sortList: [[0,0], [1,0]]});
+//        $("#mytable").tablesorter( {dateFormat: 'pt'} ); 
     } 
 ); 
